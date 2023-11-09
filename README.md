@@ -6,16 +6,34 @@ So, I was so bored with nothing to do, then saw the next image.
 ![](meme.jpg)
 At first, I laughed. Then, the intrusive ideas came in and... well, here we are.
 
-## Requirements
+## Getting Started
 I'm not sure. I did it in the rush. I used [Python 3.12](https://www.python.org/downloads/), I don't know if it works on older versions.
 
- Requires [Send2Trash](https://pypi.org/project/Send2Trash/) for 'practice' arg.
+## Install
+### Clone this project
+```
+git clone https://github.com/Benjas333/RussianRoulettePy
+cd RussianRoulettePy
+```
+Or just download the f*cking [RussianRoulettePy.py](https://github.com/Benjas333/RussianRoulettePy/blob/main/RussianRoulettePy.py) file, dude.
+### Install Send2Trash (Optional):
+Requires [Send2Trash](https://pypi.org/project/Send2Trash/) for 'practice' arg.
 ```
 pip install Send2Trash
 ```
+I promise I didn't copy the format from other repo 🗿.
+
+## Usage
+Import and that's all my buddy. Nothing complicated.
+```python
+from RussianRoulettePy import RussianRoulettePy
+
+fun = RussianRoulettePy()
+fun.play()
+```
 
 ## Features
-- Various game modes:
+- Various game `mode`(s):
 
 |Mode  | Description| Can practice? (arg) |
 |------|--------------|-------------|
@@ -25,12 +43,12 @@ pip install Send2Trash
 |suicide | Targets the script file. | **Yes**
 |extreme | Targets System32 (MUST run the script with root privileges). | Why would I move System32 to the Recycle bin?
 
-- Especify the victim folders.
-- Change amount of bullets.
-- Practice flag (make files get moved to the Recycle Bin instead of getting eliminated. REQUIRES [Send2Trash](https://pypi.org/project/Send2Trash/)).
+- Especify the victim `folders`.
+- Change amount of `bullets`.
+- `practice` arg (make files get moved to the Recycle Bin instead of getting eliminated. **Requires** [Send2Trash](https://pypi.org/project/Send2Trash/)).
 - Score and highscore system :D
 
-## Coming Soon
+### Coming Soon
 - Even more game modes:
 
 |Mode  | Description|
@@ -42,3 +60,9 @@ pip install Send2Trash
 - Maybe add global score using env variables.
 - GUI Program (just to visualize the files you're gonna lose before losing them LMAO).
 - Some day I'll make this shit a videogame (probably wouldn't use Python).
+
+## Contributing
+Idk. If you want so.
+
+## License
+Idk. This code is trash. Credits to the meme author who inspíred me to do this 🗿.
