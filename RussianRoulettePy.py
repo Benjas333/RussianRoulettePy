@@ -220,7 +220,7 @@ class RussianRoulettePy():
 	
 
 if __name__ == "__main__":
-	parser = ArgumentParser("Benjas333's Russian Roulette for Windows", description="Are you bored, wanna try some luck, and don't care whether lose some of your files? Or even your whole computer? This script is for you.")
+	parser = ArgumentParser("Benjas333's RussianRoulettePy", description="Are you bored, wanna try some luck, and don't care whether lose some of your files? Or even your whole computer? This script is for you.")
 	parser.add_argument("-m", "--mode", type=str, default="normal", help="Define the game mode. Possibles: 'normal', 'baby', 'realtime', 'suicide', 'extreme'. Default: normal")
 	parser.add_argument("-f", "--folders", type=list[str], default=["Documents","Downloads","Music","Pictures","Videos","Desktop"], help="Define the directories where files will be chosen from. Default: 'Documents','Downloads','Music','Pictures','Videos','Desktop'")
 	parser.add_argument("-b", "--bullets", type=int, default=6, help="Define the amount of bullets... lol. Default: 6")
