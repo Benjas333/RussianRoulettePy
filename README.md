@@ -43,8 +43,8 @@ python RussianRoulettePy.py [-h] [-m MODE] [-f FOLDERS] [-b BULLETS] [-p PRACTIC
 |----|---|---|
 |-m, --mode| Define the game mode. |"normal"|
 |-f, --folders| Define the directories where files will be chosen from.|['Documents', 'Downloads', 'Music', 'Pictures', 'Videos', 'Desktop']|
-|-b, --b | Define the amount of bullets... lol. | 6 |
-|-p, --p| If True, files will be moved to the Recycle bin instead of being removed. Except for 'baby' and 'extreme' modes. REQUIRES Send2Trash module instaled.| False|
+|-b, --bullets | Define the amount of bullets... lol. | 6 |
+|-p, --practice| If True, files will be moved to the Recycle bin instead of being removed. Except for 'baby' and 'extreme' modes. REQUIRES Send2Trash module instaled.| False|
 ### Game Over
 Just type "exit".
 ## Features
