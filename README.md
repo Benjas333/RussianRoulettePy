@@ -46,7 +46,7 @@ python RussianRoulettePy.py [-h] [-m MODE] [-f FOLDERS] [-b BULLETS] [-p PRACTIC
 |-b, --bullets | Define the amount of bullets... lol. | 6 |
 |-p, --practice| If True, files will be moved to the Recycle bin instead of being removed. Except for 'baby' and 'extreme' modes. REQUIRES Send2Trash module instaled.| False|
 ### Game Over
-Just type "exit".
+Just type "exit" and you'll get a summary about your game stats.
 ## Features
 - Various game `mode`(s):
 
@@ -61,7 +61,7 @@ Just type "exit".
 - Especify the targeting `folders`.
 - Change amount of `bullets`.
 - `practice` arg (make files get moved to the Recycle Bin instead of getting eliminated. **Requires** [Send2Trash](https://pypi.org/project/Send2Trash/)).
-- Score and highscore system :D
+- Score and highscore system :D (includes final stats summary).
 
 ### WIP
 - Even more game modes:
