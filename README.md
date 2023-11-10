@@ -82,4 +82,4 @@ Just type "exit" and you'll get a summary about your game stats.
 Idk. If you want so.
 
 ## License
-Idk. This code is trash. Credits to the meme author who inspíred me to do this 🗿.
+Idk. This code is trash. Credits to the meme author who inspired me to do this 🗿.
