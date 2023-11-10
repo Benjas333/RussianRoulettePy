@@ -32,8 +32,25 @@ Import and that's all my buddy. Nothing complicated.
 from RussianRoulettePy import RussianRoulettePy
 
 fun = RussianRoulettePy() # Initializes object. Has the same args than the command line
-fun.play() # Starts playing
+fun.playOnCMD() # Starts playing on terminal or CMD using a while loop with inputs
 ```
+Or use the startGame, pullTrigger, and finishGame methods.
+```python
+# Import script
+from RussianRoulettePy import RussianRoulettePy
+
+fun = RussianRoulettePy(mode='extreme')
+
+# Initializes the game
+fun.startGame()
+
+# Test your luck
+fun.pullTrigger()
+
+# Finish the game
+fun.finishGame()
+```
+Also, you can check the [examples](https://github.com/Benjas333/RussianRoulettePy/tree/main/examples).
 ### Command line
 You can also run the script using cmd.
 ```
@@ -63,8 +80,10 @@ Just type "exit" and you'll get a summary about your game stats.
 - `practice` arg (make files get moved to the Recycle Bin instead of getting eliminated. **Requires** [Send2Trash](https://pypi.org/project/Send2Trash/)).
 - Score and highscore system :D (includes final stats summary).
 
-### WIP
-- Even more game modes:
+### TO DO
+- move the whole files indexing process from `__init__()` to its own method (probably'll be `__loadFiles()`).
+- add `changeMode()` method (will work with `__loadFiles()`).
+- Even more game modes (some progress already):
 
 |Mode  | Description|
 |------|--------------|
@@ -72,11 +91,11 @@ Just type "exit" and you'll get a summary about your game stats.
 |hardrt | Hard mode realtime; i.e., directories are targeted each round before pulling the trigger.
 |apps | Would remove application directories from 'Program Files' and 'Program Files (x86)' instead of 'folders' arg.
 |executables | Would remove .exe files from the computer, variation of 'apps' mode.
+
 - Maybe add global score using env variables.
 - Maybe add basePath as an arg, instead of being a const. That would be interesting.
 - GUI Program (just to visualize the files you're gonna lose before losing them LMAO).
 - Some day I'll make this shit a videogame (probably wouldn't use Python).
-- Rn it works with a while loop and inputs. But, for the GUI and the videogame it probably has to be an iterable object, so I had to add that.
 
 ## Contributing
 Idk. If you want so.
