@@ -32,7 +32,10 @@ Import and that's all my buddy. Nothing complicated.
 from RussianRoulettePy import RussianRoulettePy
 
 fun = RussianRoulettePy() # Initializes object. Has the same args than the command line
+
 fun.playOnCMD() # Starts playing on terminal or CMD using a while loop with inputs
+
+# To finish the game just type 'exit' and you'll get a summary with your game stats
 ```
 Or use the startGame, pullTrigger, and finishGame methods.
 ```python
@@ -62,8 +65,6 @@ python RussianRoulettePy.py [-h] [-m MODE] [-f FOLDERS] [-b BULLETS] [-p PRACTIC
 |-f, --folders| Define the directories where files will be chosen from.|['Documents', 'Downloads', 'Music', 'Pictures', 'Videos', 'Desktop']|
 |-b, --bullets | Define the amount of bullets... lol. | 6 |
 |-p, --practice| If True, files will be moved to the Recycle bin instead of being removed. Except for 'baby' and 'extreme' modes. REQUIRES Send2Trash module instaled.| False|
-### Game Over
-Just type "exit" and you'll get a summary about your game stats.
 ## Features
 - Various game `mode`(s):
 
