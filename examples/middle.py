@@ -2,9 +2,9 @@ from RussianRoulettePy import RussianRoulettePy
 
 rrp = RussianRoulettePy(
         mode='baby',
-        folders=['Videos'],
+        folders=['OneDrive'],
         bullets=5,
-        practice=True
+        practice=True  # Does nothing on this example 'cause of the baby mode
 )
 rrp.setShotStrings("BAD LUCK", "*nothing happens*")
 rrp.startGame()
